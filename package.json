@@ -1,0 +1,24 @@
+{
+	"name": "react-inline-worker",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://pieterbergwerff@github.com/pieterbergwerff/react-inline-worker.git",
+	"author": "Pieter Bergwerff <p.bergwerff@studiostaat.nl>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"export": "next export",
+		"deploy": "next build && next export"
+	},
+	"dependencies": {
+		"@zeit/next-css": "^1.0.1",
+		"antd": "^3.11.6",
+		"next": "^7.0.2",
+		"prop-types": "^15.6.2",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0",
+		"react-syntax-highlighter": "^10.1.2"
+	}
+}
