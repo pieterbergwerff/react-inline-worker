@@ -7,10 +7,13 @@ var path = require('path');
 webpack(
 	{
 		entry: './src/index.js',
-		output: { filename: 'index.js', path: path.resolve(__dirname, 'dist') },
+		output: {
+			filename: 'index.js',
+			path: path.resolve(__dirname, 'dist'),
+			libraryTarget: 'commonjs2',
+		},
 		externals: {
-			react: 'react',
-			'react-dom': 'reactDOM',
+			react: 'commonjs react',
 		},
 	},
 	(err, stats) => {
