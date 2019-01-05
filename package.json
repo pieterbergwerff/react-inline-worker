@@ -1,7 +1,7 @@
 {
 	"name": "react-inline-worker",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"repository": "https://pieterbergwerff@github.com/pieterbergwerff/react-inline-worker.git",
 	"author": "Pieter Bergwerff <p.bergwerff@studiostaat.nl>",
 	"license": "MIT",
@@ -10,7 +10,7 @@
 		"dev": "next",
 		"build": "next build",
 		"export": "NODE_ENV=production next build && next export -o docs",
-		"helpnext": "next export -h"
+		"build-component": "node ./build-component.js"
 	},
 	"dependencies": {
 		"@zeit/next-css": "^1.0.1",
