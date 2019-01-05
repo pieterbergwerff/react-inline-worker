@@ -18,7 +18,7 @@ export default class ReactInlineWorker extends Component {
 		const { errors } = this.state;
 		const newErrors = [...errors];
 		newErrors.push(error);
-		return { errrors: newErrors };
+		return { errors: newErrors };
 	}
 
 	componentDidCatch(error, info) {
