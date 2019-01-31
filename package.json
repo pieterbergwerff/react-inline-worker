@@ -1,6 +1,6 @@
 {
 	"name": "react-inline-worker",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"main": "dist/index.js",
 	"repository": "https://pieterbergwerff@github.com/pieterbergwerff/react-inline-worker.git",
 	"author": "Pieter Bergwerff <p.bergwerff@studiostaat.nl>",
